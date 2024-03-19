@@ -1,6 +1,8 @@
 import streamlit as st
 import pickle
 import pandas as pd
+from sklearn.pipeline import Pipeline
+
 
 # Load the saved pipeline (including preprocessing and model)
 with open('pipe.pkl', 'rb') as file:
