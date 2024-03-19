@@ -5,8 +5,7 @@ import pandas as pd
 
 
 # Load the saved pipeline (including preprocessing and model)
-with open('pipe.pkl', 'rb') as file:
-    pipe = pickle.load(file)
+    pipe = pickle.load(open('pipe.pkl', 'rb'))
 
 # Define the Streamlit app
 def main():
