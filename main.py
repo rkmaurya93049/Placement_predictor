@@ -1,7 +1,8 @@
 import streamlit as st
 import pickle
 import pandas as pd
-from sklearn.pipeline import Pipeline
+! pip install scikit-learn
+
 
 
 # Load the saved pipeline (including preprocessing and model)
