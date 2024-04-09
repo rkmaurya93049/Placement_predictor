@@ -3,7 +3,7 @@ import pickle
 import pandas as pd
 
 # Load the saved pipeline (including preprocessing and model)
-with open('D:\Machine_learning\Projects\Student_Placement\Model\pipe.pkl', 'rb') as file:
+with open('pipe.pkl', 'rb') as file:
     pipe = pickle.load(file)
 
 # Define the Streamlit app
